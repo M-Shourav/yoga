@@ -1,3 +1,4 @@
+import AboutPage from "./components/About";
 import Banner from "./components/Banner";
 import Classes from "./components/Classes";
 
@@ -6,6 +7,7 @@ const HomePage = () => {
     <div>
       <Banner />
       <Classes />
+      <AboutPage />
     </div>
   );
 };

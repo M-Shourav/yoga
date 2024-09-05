@@ -14,9 +14,9 @@ const Banner = () => {
         <div className="flex flex-col gap-y-5 max-w-md relative">
           <h1 className="lg:text-8xl font-titleFont">Yoga Studio</h1>
           <p className="text-gray-600 leading-7">
-            Amet, sodales ac congue fusce mattis quis praesent sollicitudin
-            mauris est tortor pulvinar augue rhoncus nulla pellentesque nulla
-            eget nunc.
+            Yoga is a mind-body practice that improves flexibility, strength,
+            and relaxation through poses, breathing, and meditation. It reduces
+            stress and enhances mental clarity.
           </p>
           <div className="flex items-center gap-14">
             <Button href="/">Join Class Today</Button>

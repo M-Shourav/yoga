@@ -4,8 +4,7 @@ import { NavigateArray } from "../navigate";
 import Container from "./Container";
 import Image from "next/image";
 import { logo } from "../assets";
-import { CiMenuFries } from "react-icons/ci";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { MdOutlineClose } from "react-icons/md";
 
 const Header = () => {
@@ -46,12 +45,12 @@ const Header = () => {
         </div>
 
         {show && (
-          <div
-            onClick={() => setShow(false)}
-            className="w-[60%] h-screen bg-black/50 absolute top-0 right-0 flex flex-col items-end"
-          >
-            <div className="w-full h-full bg-bodyColor flex flex-col items-center">
-              <MdOutlineClose className="text-3xl absolute top-4 right-4 text-black hover:text-red-500 duration-200 cursor-pointer" />
+          <div className="w-[60%] h-screen lg:hidden bg-black/50 absolute top-0 right-0 z-50 flex flex-col items-end">
+            <div className="w-full overflow-y-scroll h-full bg-bodyColor flex flex-col items-center scrollBarHide">
+              <MdOutlineClose
+                onClick={() => setShow(false)}
+                className="text-3xl absolute top-4 right-4 text-black hover:text-red-500 duration-200 cursor-pointer"
+              />
               <div className="flex flex-col gap-5 items-start py-10">
                 {NavigateArray?.map((item) => (
                   <Link
@@ -63,6 +62,12 @@ const Header = () => {
                     <div className="absolute bottom-0 left-0 w-[0px] h-[1px] bg-black group-hover:w-full duration-500" />
                   </Link>
                 ))}
+                <Link
+                  className="w-full h-8 px-4 flex items-center rounded-full hover:bg-hoverColor hover:text-white duration-200  justify-center border border-hoverColor"
+                  href={"tel:+8801710267985"}
+                >
+                  +88 01710267985
+                </Link>
               </div>
             </div>
           </div>

@@ -15,3 +15,7 @@
         justify-center;
   }
 }
+
+.scrollBarHide::-webkit-scrollbar {
+  display: none;
+}

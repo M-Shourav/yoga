@@ -13,7 +13,7 @@ const Button = ({ children, className, href }: Props) => {
         <Link
           href={href}
           className={twMerge(
-            "text-base text-white bg-hoverColor px-6 py-3 rounded-full",
+            "text-base text-white bg-hoverColor hover:bg-black hover:text-white px-6 py-3 rounded-full duration-500",
             className
           )}
         >
