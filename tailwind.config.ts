@@ -9,8 +9,9 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        bodyFont: ["Lato", "sans-serif"],
+        bodyFont: ["Montserrat", "sans-serif"],
         titleFont: ["Prata", "serif"],
+        headerFont: ["Lato", "sans-serif"],
       },
       colors: {
         bodyColor: "#F6F4F2",
