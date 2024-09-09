@@ -15,6 +15,12 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.classesImage {
+  background-image: url("./assets/images/circle.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 @layer components {
   .titleStyle {
     @apply w-6 h-6 border border-gray-700 rounded-md shadow-lg shadow-gray-400 hover:bg-blue-600 hover:text-white hover:border-white flex items-center

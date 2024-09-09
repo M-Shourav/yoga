@@ -11,9 +11,9 @@ import {
 
 export const NavigateArray = [
   { title: "Home", href: "/" },
-  { title: "About Us", href: "/abut" },
+  { title: "About Us", href: "/about" },
   { title: "Classes", href: "/classes" },
-  { title: "Testimonials", href: "/testiminials" },
+  { title: "Testimonials", href: "/testimonials" },
   { title: "Contact us", href: "/contact" },
 ];
 

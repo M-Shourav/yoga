@@ -8,8 +8,10 @@ import yoga5 from "@/app/assets/images/yoga-studio-popular-class-1.jpg";
 import yoga6 from "@/app/assets/images/yoga-studio-popular-class-2.jpg";
 import yoga7 from "@/app/assets/images/yoga-studio-popular-class-3.jpg";
 import yoga8 from "@/app/assets/images/yoga-studio-popular-class-4.jpg";
-
+import aboutImage from "@/app/assets/images/about.png";
 import testimonialsBanner from "@/app/assets/images/testimonials.png";
+import circleImage from "@/app/assets/images/circle.svg";
+import classImg from "@/app/assets/images/yoga-studio-hero-img.png";
 export {
   logo,
   banner,
@@ -21,5 +23,8 @@ export {
   yoga6,
   yoga7,
   yoga8,
+  aboutImage,
   testimonialsBanner,
+  circleImage,
+  classImg,
 };
